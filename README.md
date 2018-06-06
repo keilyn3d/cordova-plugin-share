@@ -1,17 +1,24 @@
 cordova-plugin-share
 ====================
 
-Cordova Plugin to open native "share" popup in Android and iOS
+Cordova Plugin to open native "share" popup in Android and iOS with W3C Web Share API support
 
 ### Install
 
 In your phonegap/cordova project, type:
 
-`cordova plugins add https://github.com/markmarijnissen/cordova-plugin-share.git`
+`cordova plugins add https://github.com/keilyn3d/cordova-plugin-share.git`
 
 ### Usage
 
+`navigator.share({
+  title: document.title,
+  text: 'Hello World',
+  url: 'https://developer.mozilla.org',
+});`
+
 `navigator.share(text,title,mimetype)`
+
 
 * text: Text to share, i.e. "Incredible plugin"
 * title: Title of popup, i.e. "Share this quote" (android only, default: "Share")
