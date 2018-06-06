@@ -1,7 +1,7 @@
-cordova-plugin-share
+cordova-plugin-share  with W3C Web Share API support
 ====================
 
-Cordova Plugin to open native "share" popup in Android and iOS with W3C Web Share API support
+Cordova Plugin to open native "share" popup in Android and iOS
 
 ### Install
 
